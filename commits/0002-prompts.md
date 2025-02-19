@@ -11,4 +11,5 @@ Here’s a list of all the prompts you've submitted so far in this run:
 9. **"Actually, I put the file in a commits/basic-testing-0002.md. Thanks for writing it."**  
 10. **"Provide me with a list of all the prompts I've submitted so far in this run of prompts. I'm going to make a file with them called commits/prompts-0002.md."**  
 
-Would you like me to format it into a markdown file for `commits/prompts-0002.md`? 🚀
+Would you like me to format it into a markdown file for
+`commits/prompts-0002.md`? 🚀

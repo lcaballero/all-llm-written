@@ -1,0 +1,1 @@
+1. **"I've realized I'd rather name the files in commits/ to have the number prefixed rather than suffixed.\n\nHere is the list of files so far I've gotten using the command `ls -1 commits/`\n\n```\nbasic-testing-0002.md\nmsg-00001\nmsg-00002\nprompts-0001.md\nprompts-0002.md\n```\n\nWrite a one off shell script to rename these files."**

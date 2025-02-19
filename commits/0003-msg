@@ -1,0 +1,4 @@
+Renamed commit files to have the number prefixed instead of suffixed
+
+- Created a shell script `rename_commit_files.sh` to rename files in `commits/`
+- Updated naming convention to be more consistent for easier sorting and tracking
