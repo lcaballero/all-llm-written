@@ -1,0 +1,6 @@
+Initial commit
+
+- Added a simple Go web server (main.go)
+- Created a shell script (run.sh) to build and run the server
+- Added a README (readme.md) with setup and usage instructions
+- Included a .gitignore file to exclude build artifacts and editor-specific files

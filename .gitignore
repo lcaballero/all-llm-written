@@ -1,0 +1,21 @@
+# Ignore compiled binary
+server
+
+# Ignore Go build artifacts
+*.exe
+*.out
+*.test
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore dependency files if using Go modules (not strictly necessary but useful)
+/bin/
+/pkg/
