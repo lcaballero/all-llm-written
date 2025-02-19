@@ -1,0 +1,7 @@
+Updated project with TLS support and testing instructions
+
+- Updated `main.go` to enable HTTPS with a self-signed certificate
+- Revised `README.md` to reflect TLS changes and remove unnecessary instructions
+- Updated `.gitignore` to exclude TLS certificate and key files
+- Created `commits/basic-testing-0002.md` with testing steps for the TLS server
+- Documented prompts in `commits/prompts-0002.md`

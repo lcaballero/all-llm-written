@@ -20,11 +20,7 @@ This project is a simple web server written in Go. It listens on port `8080` and
    ```sh
    cd path/to/your/project
    ```
-3. Give execution permissions to `run.sh`:
-   ```sh
-   chmod +x run.sh
-   ```
-4. Run the script to build and start the server:
+3. Run the script to build and start the server:
    ```sh
    ./run.sh
    ```

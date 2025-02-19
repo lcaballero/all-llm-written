@@ -12,7 +12,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/plain")
 
 	// Write a simple response message.
-	fmt.Fprintf(w, "Hello, World! This is a simple Go web server.")
+	fmt.Fprintf(w, "Hello, World! This is a simple Go web server with TLS.")
 }
 
 func main() {
@@ -23,10 +23,10 @@ func main() {
 	http.HandleFunc("/", handler)
 
 	// Log a message indicating the server is starting.
-	log.Printf("Starting server on http://localhost%s", port)
+	log.Printf("Starting secure server on https://localhost%s", port)
 
-	// Start the web server and log any error if it fails.
-	if err := http.ListenAndServe(port, nil); err != nil {
-		log.Fatalf("Failed to start server: %v", err)
+	// Start the web server with TLS, using the self-signed certificate and key.
+	if err := http.ListenAndServeTLS(port, "server.crt", "server.key", nil); err != nil {
+		log.Fatalf("Failed to start secure server: %v", err)
 	}
 }

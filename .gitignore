@@ -19,3 +19,10 @@ Thumbs.db
 # Ignore dependency files if using Go modules (not strictly necessary but useful)
 /bin/
 /pkg/
+
+# Ignore build output
+/build/
+
+# Ignore TLS certificate and key
+server.crt
+server.key
